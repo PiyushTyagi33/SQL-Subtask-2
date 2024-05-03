@@ -3,14 +3,10 @@ use sql_hr;
 SELECT 
 	office_id, 
 	SUM(salary) AS total_salary_payout
-FROM 
-	employees e
-GROUP BY 
-	1
-ORDER BY 
-	total_salary_payout DESC
-LIMIT 
-	1;
+FROM employees e
+GROUP BY 1
+ORDER BY total_salary_payout DESC
+LIMIT 1;
 
 
 WITH ranked_employees AS (
