@@ -5,7 +5,7 @@ This task contains 3 different Database Schemas, which are used to answer the be
 **a. **sql_hr schema:****
 - Write a query to find the office with highest salary payout
 - Within each office, rank top 3 employees with highest salary in a single query
-- 
+  
 **b. sql_invoicing schema:**
 - Write a query to calculate the average invoice total for each client, alongside the total number of invoices they have.
 - Identify the top 3 clients who have the highest invoice totals, considering only invoices within the last 3 months from the overall highest invoice data.
